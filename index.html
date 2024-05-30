@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THT@WebmasterTool</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://i.hizliresim.com/i01a1tn.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .header {
+      background-color: #0f0;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      display: none;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    textarea {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #0f0;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #0c0;
+    }
+    iframe {
+      width: 100%;
+      height: calc(100vh - 50px);
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <p>TurkHackTeam.org - Created by CH</p>
+</div>
+
+<div class="container">
+  <h2>TurkHackTeam.org - Created by CH</h2>
+  <textarea id="code" placeholder="HTML, CSS veya JavaScript kodunuzu buraya yazın..."></textarea>
+  <button onclick="runCode()">Kodu Çalıştır</button>
+  <iframe id="result"></iframe>
+</div>
+
+<script>
+  function runCode() {
+    const code = document.getElementById('code').value;
+    const iframe = document.getElementById('result').contentWindow.document;
+    iframe.open();
+    iframe.write(code);
+    iframe.close();
+  }
+</script>
+
+</body>
+</html>

@@ -10,3 +10,7 @@ Ekrana kodunuzu yazıp ardından "Kodu Çalıştır" butonuna tıkladığınızd
 NOT: Kodunuzda yapmış olduğunuz her düzenleme ardından "Kodu Çalıştır"a tıklayın.
 
 ahlaksizcoder - CH
+
+![image](https://github.com/ahlaksizcoder/ththtmleditor/assets/58633075/f3803c49-399f-40f0-b977-c11315b9c75f)
+
+![image](https://github.com/ahlaksizcoder/ththtmleditor/assets/58633075/7c4d5a13-4959-48d7-9f2e-4a3e7f6b46c4)

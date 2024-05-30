@@ -1,5 +1,4 @@
-# oo
-TurkHackTeam Real-Time HTML Editör
+# TurkHackTeam Real-Time HTML Editör
 
 Web ile uğraşan arkadaşlarımız kodlarını anlık test etmek için yabancı kaynaklara başvurmaktalar. Bu sorunu ortadan kaldırmak için THT Real-Time Editör hazırlama gereği duydum. İster kendi sitenize sub olarak ister local üzerinde kişisel olarak kullanabilirsiniz.
 
